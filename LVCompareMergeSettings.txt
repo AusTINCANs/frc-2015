@@ -1,0 +1,4 @@
+C:\Program Files (x86)\National Instruments\Shared\LabVIEW Compare\LVCompare.exe %base %mine -nobdcosm -nobdpos
+
+C:\Program Files (x86)\National Instruments\Shared\LabVIEW Merge\LVMerge.exe %base %theirs %mine %merged
+
