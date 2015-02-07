@@ -1,0 +1,6 @@
+Configure TortoiseGit to use the following commands for Compare and Merge, respectively, for filetypes .vi, .ctl, and .llb
+
+C:\Program Files (x86)\National Instruments\Shared\LabVIEW Compare\LVCompare.exe %base %mine -nobdcosm -nobdpos
+
+C:\Program Files (x86)\National Instruments\Shared\LabVIEW Merge\LVMerge.exe %base %theirs %mine %merged
+
