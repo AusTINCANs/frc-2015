@@ -26,8 +26,17 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Raw Sequence Cluster.ctl" Type="VI" URL="../Raw Sequence Cluster.ctl"/>
+			<Item Name="Color Sequence.ctl" Type="VI" URL="../Color Sequence.ctl"/>
+			<Item Name="LED Message.ctl" Type="VI" URL="../LED Message.ctl"/>
+		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Pianoman.vi" Type="VI" URL="../Pianoman.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="LED_Colors.ctl" Type="VI" URL="../LED_Colors.ctl"/>
+			<Item Name="LED_Patterns.ctl" Type="VI" URL="../LED_Patterns.ctl"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -855,6 +864,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LED Message.ctl" Type="VI" URL="../LED Message.ctl"/>
 			<Item Name="LED_Colors.ctl" Type="VI" URL="../LED_Colors.ctl"/>
 			<Item Name="LED_Patterns.ctl" Type="VI" URL="../LED_Patterns.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -869,6 +879,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Raw Sequence Cluster.ctl" Type="VI" URL="../Raw Sequence Cluster.ctl"/>
 			<Item Name="To I2C Data Packet.vi" Type="VI" URL="../To I2C Data Packet.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
